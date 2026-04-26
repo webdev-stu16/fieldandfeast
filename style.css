@@ -155,7 +155,7 @@ hr {
     color: var(--secondary-text-color);
 }
 
-h3 {
+.offer-card h3 {
     font-size: 1.5em;
     font-weight: bold;
     padding-bottom: 10px;
