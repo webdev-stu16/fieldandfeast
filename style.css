@@ -89,14 +89,14 @@ header img {
 }
 
 header h1 {
-    font-size: 3em;
+    font-size: 4em;
     font-weight: bold;
     padding-bottom: 20px;
 }
 
 header p {
     font-style: italic;
-    font-size: .9em;
+    font-size: 1em;
 }
 
 nav {
@@ -124,7 +124,7 @@ main {
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 2.1em;
     padding: 25px 0px 15px 0px;
 }
 
@@ -156,7 +156,7 @@ hr {
 }
 
 .offer-card h3 {
-    font-size: 1.5em;
+    font-size: 1.7em;
     font-weight: bold;
     padding-bottom: 10px;
 }
