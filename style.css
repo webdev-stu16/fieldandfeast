@@ -224,7 +224,23 @@ footer a {
 }
 
 /* MEDIA QUERY (medium) */
+@media screen and (min-width:600px) {
+    .offers-wrap {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
 
+    .row-stretch {
+        grid-column: 1 / -1;
+    }
+
+    .offer-card {
+        margin-bottom: 0px;
+    }
+
+}
 
 /* MEDIA QUERY (large) */
 
