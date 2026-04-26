@@ -205,6 +205,24 @@ hr {
     margin-bottom: 15px;
 }
 
+footer {
+    background-color: var(--secondary-bg-color);
+    padding: 75px 0px 25px 0px;
+    text-align: center;
+    color: var(--secondary-text-color);
+    line-height: 150%;
+}
+
+footer p {
+    padding-bottom: 50px;
+}
+
+footer a {
+    font-weight: bold;
+    color: var(--primary-link-color);
+    text-decoration: none;
+}
+
 /* MEDIA QUERY (medium) */
 
 
