@@ -84,7 +84,7 @@ header {
 }
 
 header img {
-    max-width: 45vw;
+    max-width: 28vh;
     padding: 15px 10px 15px 10px;
 }
 
@@ -226,6 +226,10 @@ footer a {
 
 /* MEDIA QUERY (medium) */
 @media screen and (min-width:600px) {
+    header img {
+        max-width: 29vh;
+    }
+
     .offers-wrap {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -260,6 +264,10 @@ footer a {
 
 /* MEDIA QUERY (large) */
 @media screen and (min-width:900px) {
+    header img {
+        max-width: 30vh;
+    }
+
     main {
         max-width: 95%;
         margin: auto;
