@@ -245,9 +245,26 @@ footer a {
         padding-bottom: 0px;
     }
 
+    .img-gal {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+    .img-card {
+        margin-bottom: 0px;
+    }
+
 }
 
 /* MEDIA QUERY (large) */
-
+@media screen and (min-width:900px) {
+    .img-gal {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+}
 
 /* MEDIA QUERY (xl) */
