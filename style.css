@@ -240,6 +240,11 @@ footer a {
         margin-bottom: 0px;
     }
 
+    .offer-card h3 {
+        line-height: 150%;
+        padding-bottom: 0px;
+    }
+
 }
 
 /* MEDIA QUERY (large) */
