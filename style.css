@@ -268,3 +268,17 @@ footer a {
 }
 
 /* MEDIA QUERY (xl) */
+@media screen and (min-width:1200px) {
+    main {
+        max-width: 80%;
+        margin: auto;
+    }
+
+    .img-gal {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 25px;
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+}
