@@ -191,6 +191,7 @@ hr {
     text-align: center;
     font-style: italic;
     font-size: .9em;
+    line-height: 150%;
 }
 
 .gal-btn {
@@ -259,10 +260,15 @@ footer a {
 
 /* MEDIA QUERY (large) */
 @media screen and (min-width:900px) {
+    main {
+        max-width: 95%;
+        margin: auto;
+    }
+
     .img-gal {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 20px;
+        gap: 25px;
         margin-bottom: 20px;
     }
 }
